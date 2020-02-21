@@ -4,6 +4,21 @@
 
 These are some shell scripts that makes using `rnnoise` a little easier.
 
+## Using the scripts
+
+### Installing Prerequisites and build `rnnoise`
+
+```sh
+./apt-install-prereq-rnnnoise.sh
+./build-rnnoise.sh
+```
+
+### Noise Reduction of a file using `rnnoise`
+
+```sh
+./rnnoise-mono-process-audio.sh <Audio File Path Here>
+```
+
 ## License
 
 The scripts in this project is under the MIT License.
