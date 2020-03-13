@@ -13,7 +13,7 @@ echo "Process RAW PCM with rnnoise..."
 echo "Process RAW PCM with rnnoise done."
 
 echo "Encode to FLAC..."
-ffmpeg -f s16le -ar 48000 -i "$filename.s16le.output" -acodec flac -compression_level 12 "$filename.rnnoise.flac"
+ffmpeg -f s16le -ar 48000 -i "$filename.s16le.output" -acodec flac -compression_level 5 "$filename.rnnoise.flac"
 echo "Encode to FLAC done."
 
 echo "Cleaning up..."
