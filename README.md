@@ -2,6 +2,10 @@
 
 These are some shell scripts that makes using `rnnoise` a little easier.
 
+`rnnoise` is a tool that uses a recurrent neural network for audio noise reduction.
+
+> 🔔 [`rnnoise` Github Repository](https://github.com/xiph/rnnoise)
+
 ## Cloning this project
 
 ```sh
